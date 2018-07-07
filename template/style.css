@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url('img/header.png') #e5e5e5;
+	height: 43px;
+	border-bottom: 9px solid #9d2c25;
+}
+
+footer {
+	background: url('img/footer.png') #e5e5e5;
+	height: 203px;
+	border-top: 9px solid #9d2c25;
+}
+
+
+
+#content {
+	width: 946px;
+    margin: 0 auto;
+}
+
+
+nav {
+	
+height: 65px;
+}
+
+nav ul {
+	
+list-style: none;
+}
+
+nav ul li {
+/* display: inline-block; */	
+width: 20%;	
+float: left;
+
+height: 65px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9d2c25+0,85251f+100 */
+	background: #9d2c25; /* Old browsers */
+	background: -moz-linear-gradient(left, #9d2c25 0%, #85251f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #9d2c25 0%,#85251f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #9d2c25 0%,#85251f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d2c25', endColorstr='#85251f',GradientType=1 ); /* IE6-9 */
+}
+
+nav ul li 	a {
+	font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    text-align: center;
+    line-height: 65px;
+}
+
+nav ul li 	a:hover {
+	background: url('img/menu-hover.png') no-repeat  130px 0 #000;
+}
+
+
+
+
